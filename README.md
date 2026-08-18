@@ -23,8 +23,8 @@ The dataset describes direct marketing campaigns of a Portuguese banking institu
 
 ## c. Submission Links
 
-- **GitHub Repository:** REPLACE_WITH_YOUR_GITHUB_REPOSITORY_URL
-- **Live Streamlit App:** REPLACE_WITH_YOUR_STREAMLIT_APP_URL
+- **GitHub Repository:** `https://github.com/shraddhavwork/2025ac05280_ml-assignment-2-classification/tree/main`
+- **Live Streamlit App:** `https://2025ac05280ml-assignment-2-classification-wpbt7pwrvhiuzvxqchi5.streamlit.app/`
 
 ## d. Models Used and Evaluation Metrics
 

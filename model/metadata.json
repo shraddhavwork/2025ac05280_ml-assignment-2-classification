@@ -1,0 +1,58 @@
+{
+  "dataset_name": "UCI Bank Marketing",
+  "dataset_id": 222,
+  "n_instances": 45211,
+  "n_features": 16,
+  "target_column": "target",
+  "target_mapping": {
+    "0": "No subscription",
+    "1": "Subscribed"
+  },
+  "feature_names": [
+    "age",
+    "job",
+    "marital",
+    "education",
+    "default",
+    "balance",
+    "housing",
+    "loan",
+    "contact",
+    "day_of_week",
+    "month",
+    "duration",
+    "campaign",
+    "pdays",
+    "previous",
+    "poutcome"
+  ],
+  "numerical_features": [
+    "age",
+    "balance",
+    "day_of_week",
+    "duration",
+    "campaign",
+    "pdays",
+    "previous"
+  ],
+  "categorical_features": [
+    "job",
+    "marital",
+    "education",
+    "default",
+    "housing",
+    "loan",
+    "contact",
+    "month",
+    "poutcome"
+  ],
+  "random_state": 42,
+  "test_size": 0.2,
+  "model_files": {
+    "Logistic Regression": "logistic_regression.joblib",
+    "Decision Tree": "decision_tree.joblib",
+    "kNN": "knn.joblib",
+    "Naive Bayes": "naive_bayes.joblib",
+    "Random Forest (Ensemble)": "random_forest.joblib"
+  }
+}

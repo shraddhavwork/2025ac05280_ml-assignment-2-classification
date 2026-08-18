@@ -25,7 +25,6 @@ The experiment uses a **stratified 80/20 train-test split** with `random_state=4
 
 **Live Streamlit App:** `hhttps://2025ac05280ml-assignment-2-classification-wpbt7pwrvhiuzvxqchi5.streamlit.app/`
 
-> Replace both placeholders after you push the repository and deploy the application.
 
 ## d. Models Used and Evaluation Metrics
 
@@ -37,7 +36,7 @@ The project evaluates the following classifiers:
 4. Gaussian Naive Bayes
 5. Random Forest (Ensemble)
 
-The required evaluation metrics are **Accuracy, AUC, Precision, Recall, F1 Score, and Matthews Correlation Coefficient (MCC)**.
+The evaluation metrics are **Accuracy, AUC, Precision, Recall, F1 Score, and Matthews Correlation Coefficient (MCC)**.
 
 ### Comparison Table
 
@@ -120,7 +119,6 @@ streamlit run app.py
 
 6. Open the displayed local URL in the browser.
 7. Upload `test_data.csv`, select different models, and verify the metrics/confusion matrix.
-8. Capture **one screenshot showing the assignment execution on the BITS Virtual Lab** for the final submission PDF.
 
 ## Reproducibility Notes
 

@@ -142,11 +142,12 @@ def build_models(numerical: list[str], categorical: list[str]) -> dict[str, Pipe
                 ("preprocess", unscaled()),
                 (
                     "classifier",
-                    RandomForestClassifier(
-                        n_estimators=300,
-                        random_state=RANDOM_STATE,
-                        class_weight="balanced",
-                        n_jobs=-1,
+                   RandomForestClassifier(
+                        n_estimators=80,
+                        max_depth=12,
+                        min_samples_leaf=2,
+                        random_state=42,
+                        n_jobs=-1
                     ),
                 ),
             ]
@@ -389,7 +390,7 @@ def main() -> None:
         model.fit(X_train, y_train)
         results[name] = evaluate(model, X_test, y_test)
         filename = model_filename(name)
-        joblib.dump(model, MODEL_DIR / filename)
+        joblib.dump(model, MODEL_DIR / filename, compress=3)
         model_files[name] = filename
 
     metrics_df = pd.DataFrame.from_dict(results, orient="index")

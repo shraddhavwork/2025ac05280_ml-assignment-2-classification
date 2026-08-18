@@ -23,7 +23,7 @@ The experiment uses a **stratified 80/20 train-test split** with `random_state=4
 
 **GitHub Repository:** `https://github.com/shraddhavwork/2025ac05280_ml-assignment-2-classification`
 
-**Live Streamlit App:** `hhttps://2025ac05280ml-assignment-2-classification-wpbt7pwrvhiuzvxqchi5.streamlit.app/`
+**Live Streamlit App:** `https://2025ac05280ml-assignment-2-classification-wpbt7pwrvhiuzvxqchi5.streamlit.app/`
 
 
 ## d. Models Used and Evaluation Metrics

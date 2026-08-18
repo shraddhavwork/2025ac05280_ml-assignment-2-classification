@@ -1,6 +1,7 @@
-streamlit>=1.37,<2
-scikit-learn==1.8.0
-pandas==2.2.3
-numpy==2.3.5
-matplotlib==3.10.8
-joblib==1.5.3
+streamlit
+scikit-learn==1.9.0
+numpy
+pandas
+matplotlib
+joblib
+ucimlrepo

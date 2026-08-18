@@ -21,9 +21,9 @@ The experiment uses a **stratified 80/20 train-test split** with `random_state=4
 
 ## c. GitHub Repository Link
 
-**GitHub Repository:** `REPLACE_WITH_YOUR_GITHUB_REPOSITORY_URL`
+**GitHub Repository:** `https://github.com/shraddhavwork/2025ac05280_ml-assignment-2-classification`
 
-**Live Streamlit App:** `REPLACE_WITH_YOUR_STREAMLIT_APP_URL`
+**Live Streamlit App:** `https://2025ac05280ml-assignment-2-classification-wpbt7pwrvhiuzvxqchi5.streamlit.app/`
 
 > Replace both placeholders after you push the repository and deploy the application.
 
